@@ -1,0 +1,30 @@
+{
+  "name": "coca-history",
+  "version": "1.0.0",
+  "description": "Export the COCA search history",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w",
+    "run": "npm run build && node dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fast-csv/format": "^4.0.2",
+    "@types/dateformat": "^3.0.1",
+    "@types/fs-extra": "^8.0.1",
+    "@types/jsdom": "^12.2.4",
+    "@types/yargs": "^15.0.3",
+    "dateformat": "^3.0.3",
+    "fs-extra": "^8.1.0",
+    "got": "^10.5.5",
+    "jsdom": "^16.1.0",
+    "tough-cookie": "^3.0.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "yargs": "^15.1.0"
+  }
+}
