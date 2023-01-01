@@ -21,10 +21,10 @@
     "got": "^10.5.5",
     "jsdom": "^16.1.0",
     "tough-cookie": "^3.0.1",
-    "ts-loader": "^6.2.1",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.7.5",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
     "yargs": "^15.1.0"
   }
 }
